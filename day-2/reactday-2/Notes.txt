@@ -1,0 +1,13 @@
+Component : Component is basic building block of react, where we can create 'reusable' code to use and create different UIs. Components is just a normal function which has logic(javascript) and UI(html).
+
+Two Ways to create a component :
+1.functional based component
+2.class based component
+
+Components name should start with capital letter 
+---------------------------------------------------------------------------
+
+In React we can export and import in two ways : 
+1. Default export - in one file, there should only be one default export
+2. Named Export  - when you want to export multiple you can use named export 
+

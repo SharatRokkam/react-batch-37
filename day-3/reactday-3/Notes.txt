@@ -1,0 +1,13 @@
+Props(Properties) and State (Situation)
+
+Props are immutable(it cannot changed) and it can be passed form parent to child component(Unidirectional Flow)
+
+State : is mutable(it can be changed) and it takes place in the same component.
+
+state -> Class and Functional component
+Class -> setState
+Functional -> Hooks(v.imp)
+
+use -> Hooks (functional Component only)
+to use state, in functional component we have to use hook...
+--> useState, useEffect, useDispatch, useReducer, useMemo, useLocation, Custom Hooks
