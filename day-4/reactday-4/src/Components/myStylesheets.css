@@ -1,0 +1,12 @@
+.primary {
+  color: red;
+  font-size: 30px;
+}
+
+.fonts {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text {
+  text-align: center;
+}

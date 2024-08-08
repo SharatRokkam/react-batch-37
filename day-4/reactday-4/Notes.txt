@@ -1,0 +1,6 @@
+CSS Styling React :
+
+1. CSS Stylesheet ->>
+2. Inline CSS -->>
+3. CSS Module -->>
+4. CSS Library = Bootstrap, Tailwind CSS, SASS, SCSS
