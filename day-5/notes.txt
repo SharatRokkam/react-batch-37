@@ -1,0 +1,6 @@
+Conditional Rendering : (condtional Statement - if else if, while, do, switch)
+
+1. if statements
+2. ternary operator
+3. short circuit
+4. elements variables
