@@ -1,0 +1,13 @@
+Create a component with a button and a number displayed on the screen.
+create two button,when it  is clicked, the number should increase by 1 and decrease by 1
+
+
+
+LifeCycle Methods of Class Component: 
+
+
+Render(), Constructor()
+Birth - componentWillMount, 
+Live - componentDidUpdate
+Die -  componentWillUnmount 
+

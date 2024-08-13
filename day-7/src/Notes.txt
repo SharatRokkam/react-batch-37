@@ -1,0 +1,10 @@
+Lifecycle Methods in react is a special method that get called at different stages of components life in the react rendering process. 
+
+1. Mounting - When a component is being created and inserted into the DOM
+2. Updating - When the component's state and props changes causing a re-rendering
+3. Unmounting - When the component is being removed from the DOM
+4. Error Handling - When a error occurs during the rendering in a lifecycle method.
+
+Mounting - render, componentDidMount 
+Updating - shouldComponentUpdate, componentDidUpdate
+Unmounting - componentDidUnmount
