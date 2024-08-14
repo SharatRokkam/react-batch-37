@@ -1,0 +1,27 @@
+.container {
+  width: 280px;
+  height: 300px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 25px;
+  color: brown;
+}
+
+.para {
+  font-size: 19px;
+  color: blue;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
