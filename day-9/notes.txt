@@ -1,0 +1,44 @@
+
+1.   Props Drilling ?????
+
+GrandParent(props) ===>Parent ====>> Child   ====>>> GrandChild
+
+Prop drilling in React refers to the process of passing data from a parent component down to child components through multiple levels. This can become cumbersome when many components are involved, especially if only a few of them actually need the data. 
+
+---------------------------------------------------------------------
+Consider a scenario where you have a top-level component that fetches data from an API and needs to pass this data down to multiple nested child components.
+
+Instead of directly passing the data to each child component, you pass it through each intermediary component in the hierarchy until it reaches the desired child component. This passing of props through multiple levels of components is what prop drilling mean.
+
+
+SEVERAL TECHNIQUES TO HANDLE PROPS DRILLING??
+--1. CONTEXT API
+--2. STATE MANAGEMENT LIBRARIES LIKE (REDUX AND MOBX)
+--3. HIGHER ORDER COMPONENTS and RENDER PROPS
+
+
+app.jsx => [2 objects]  => tasks.map (2) => taskItem 1 and taskItem2 =>  task 1 task2 =>
+
+
+Context API : it is a state management tool provided by React.....
+
+createContext 
+We can pass the data using provider 
+1. Provider
+we can receive the data using consumer or useContext
+2. Consumer and useContext (hook)
+
+
+Props Drilling 
+Parent => Child => GrandChild
+
+Context API
+Parent => GrandChild
+
+
+Interview Question : 
+ 
+ create an input field where if I am writing something it should render on the screen in a reverse.
+
+
+ input field ->>> sharat -->> tarahs
