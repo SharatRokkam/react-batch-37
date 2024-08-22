@@ -1,0 +1,13 @@
+Client Side rendering(displaying) / routing(navigating)
+
+Server Side Rendering / routing
+
+
+Server Side applications initially runs faster for the firsttime...later on it gets slow
+client side application initially runs slower and gradually it becomes faster after first render....
+
+react-router-dom  is library for client side routing so that you can create single page application (SPA) 
+
+
+1. install react-router-dom
+2. import browserRouter, Routes, Route , Link and Navlink
