@@ -39,6 +39,9 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Error from "./components/Error";
 import Navbar from "./components/Navbar";
+import UserProfile from "./components/UserProfile";
+import ProductDetail from "./components/ProductDetail";
+
 
 const App = () => {
   return (
@@ -49,6 +52,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/error" element={<Error />}></Route>
+        <Route path="/users" element={<UserProfile />}></Route>
+        <Route path="/users/:id" element={<ProductDetail />}></Route>
       </Routes>
     </>
   );
