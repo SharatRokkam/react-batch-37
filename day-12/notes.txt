@@ -1,0 +1,34 @@
+Controlled and Uncontrolled Components ? - FORM
+
+1. Controlled Components in react are those where form data is handled by react component state.
+
+This means : 
+--> state management : the value of the input field by controlled by react state(useState or this.state in class component)
+--> event handlers : changes to the input field(like typing into the text field) are handled by react event handlers (onChange, onBlur) etc.
+--> State updates : when the user interacts with the form input, react state is updated through event handlers, and the input value reflects the current state value.
+
+2. Uncontrolled Components in react are those where  form data is handled by the DOM itself.
+
+This means:
+-->Direct DOM manipulation : The value of the input field is controlled by the DOM.
+-->Event Handling : Changes are directly handled by DOM events. (onChange, onBlur)
+--> Accessing Form Data : Form data is accessed through refs or DOM traversal method, not through react state.
+
+
+Controlled - complex form where data is critical and you want to have control on the component
+
+Uncontrolled - simple form where you are not much worried about the form data 
+
+
+
+-----------------------------------------------------------------
+create a login page should have email and password using Uncontrolled component, when you submit it should display data in "alert".
+
+
+
+Babel and Webpack ???
+
+githubPages
+
+Webpack is just a bundler 
+

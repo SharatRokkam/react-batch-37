@@ -1,0 +1,23 @@
+Hook : useState, useEffect, useContext, useParams, useRef, custom Hooks
+
+Controlled and Uncontrolled 
+
+Controlled Component - Form - handled by react(useState) 
+Uncontrolled Component - Form - handled by DOM(useRef)
+
+
+"useMemo and useCallback"?
+- Memoization (optimizing the component)
+
+
+The main difference between the two is that useMemo caches the return value of a function, while useCallback caches the function definition itself...
+
+"useCallback" is like putting a sticky note on a function saying, "Don't change this unless something important changes." It helps React remember the exact same function between re-renders, which can prevent unnecessary work, like when a child component doesn't need to re-render.
+
+"useMemo" is like putting a sticky note on the result of a calculation, saying, "Don't redo this math unless the numbers you're working with change." It helps React remember the result of a calculation, so it doesn’t have to redo expensive calculations every time the component renders.
+
+
+Key Difference:
+useCallback is for functions. It tells React, "Remember this function so you don’t have to make it again unless you need to.
+
+useMemo is for values. It tells React, "Remember this result so you don’t have to recalculate it unless the inputs change."
