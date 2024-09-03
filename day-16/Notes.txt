@@ -1,0 +1,24 @@
+useState, useEffect, useContext, useRef, useParams, useMemo, useCallback
+
+What is useReducer Hook ?
+
+useReducer is a react hook used for state management
+Alternative of useState() hook
+preferable for complex state management logic Example : food delivery, ecommerce application
+
+Syntax : 
+useState :
+const [state, setterFunction] = useState(initialValue)
+useReducer: 
+const [state, dispatch] = useReducer(reducer, initialState)
+
+Reducer is a function accepts two parameter : 
+
+reducer ==>(currentState, action)
+newState ==>reducer(currentState, action)
+
+
+
+
+
+

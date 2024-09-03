@@ -1,0 +1,39 @@
+Higher Order Component ---> Javascript ---->Higher order function
+
+
+Higher Order Function are the function which takes another function as an argument and returns a new function in Javascript.
+
+
+Parent Component --->  Multiple Child Component
+
+
+React -->  a higher-order component is a function that takes a component and returns a new component.
+
+
+Benefits :
+
+1. Code Sharing
+2. State Management
+3. Caching and Memoization
+4. Style Components and themes
+5. Conditional Rendering
+
+
+Drawback: 
+you have Multiple levels of hoc, then there can be collision while passing the data.
+
+
+1. Render Props
+2. Custom Hooks
+
+
+
+useReducer is hook 
+
+useReducer similar useState
+
+const [variable, function] = useState(initialValue)
+const [variable, dispatch] = useReducer(function, initialValue)
+
+Reducer -->> Redux
+
