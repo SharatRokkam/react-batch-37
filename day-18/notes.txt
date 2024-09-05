@@ -1,0 +1,11 @@
+To use Redux Toolkit : 
+
+1. Install Redux toolkit and react-Redux
+2. Check your package.json
+3. create a app folder in src and crete a store.js
+4. create a store code...
+5. create a folder feature -> folder todos -> todoSlice.js
+6. writing the slice code which accepts reducer function, slice name , initial State
+
+
+
