@@ -1,0 +1,83 @@
+What is React ? 
+--> React is JS library , which is developed by facebook...
+---> Web application and Mobile application
+--> REact DOM and React Native
+
+Why React ?
+--> Component - Flexible
+--> learning curve is steep or easy
+--> wide range of community support
+
+Library and Framework ? (Imp)
+--> Both are just a code written some developer and has kept on internet....
+--> "Inversion of Control"
+--> Library - Developer has control , framework - framework has the control...
+---> Bootstrap = navbar but structure
+--> React - without the structure we can create the project...
+
+Example : Pizza maker Kit( base, spreads, oregano and veggies and chicken) -  Framework
+
+
+Pizza Expert - Large, Creams, chicken, ketchup, spicy - Library
+
+
+Features of React:
+component based architecture
+SPA
+Virtual DOM 
+unidirectional flow
+JSX - JS and HTML - JS Extension
+
+Conditional Rendering 
+Hooks - useState, useEffect, useContext
+props drilling and context api
+context api vs redux
+package.json and packagelock.json
+babel and webpack
+useCallback and useMemo
+Higher Order Compoenents
+Lazy loading
+Pure Compoenents
+Lifecycle methods
+fetch and axios
+functional and Class Components
+
+(function(){
+
+})()
+
+
+JS -- >
+var let const
+hoisting, temporal dead zone
+functions - 3 ways
+Higher Order Function
+call bind apply
+closures 
+prototype
+Map, filter and reduce
+Array - find, some, every, sort, reverse, join, push, pop, shift unshift
+Spread and Rest Operators
+Promises, Async Await, Callback
+Destructuring of Array and Objects
+Import and Export / Module
+DOM, OOPs
+pass by value and pass by reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
